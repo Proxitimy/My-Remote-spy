@@ -1,14 +1,14 @@
 --[[
-    SimpleSpy v2.2 SOURCE
+    Prox Spy v2.1 SOURCE
 
-    SimpleSpy is a lightweight penetration testing tool that logs remote calls.
+    Prox spy is a lightweight penetration testing tool that logs remote calls.
 
     Credits:
-        exx - basically everything
-        Frosty - GUI to Lua
+        Prox - everything
+      
 ]]
 
--- shuts down the previous instance of SimpleSpy
+-- shuts down the previous instance of Prox spy
 if _G.SimpleSpyExecuted and type(_G.SimpleSpyShutdown) == "function" then
 	print(pcall(_G.SimpleSpyShutdown))
 end
